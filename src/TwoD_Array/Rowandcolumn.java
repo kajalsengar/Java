@@ -23,7 +23,8 @@ public class Rowandcolumn {
                 sum=sum+array[i][j];
                 //    System.out.println(array[i][j]);
             }
-            System.out.println("sum of elements of array "+sum);
+         //2   System.out.println("sum of elements of array "+sum);
         }
+        System.out.println("sum of elements of array "+sum);
     }
 }
