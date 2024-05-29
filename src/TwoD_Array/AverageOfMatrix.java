@@ -10,7 +10,7 @@ public class AverageOfMatrix {
         int row = scanner.nextInt();
         System.out.println("enter the size of array..");
         int column= scanner.nextInt();
-        int sum =0;
+        double sum =0;
         //int average=1;
         int array[][]=new int[row][column];
 
@@ -30,7 +30,7 @@ public class AverageOfMatrix {
         }
 
         System.out.println("sum of elements="+sum);
-        int average=sum/row*column;
+        double average=sum/(row*column);
         System.out.println("average of array="+average);
     }
 }
