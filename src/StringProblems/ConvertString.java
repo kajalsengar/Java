@@ -4,6 +4,7 @@ public class ConvertString {
     public static void main(String[] args) {
         char c='K';
         String str= "kajal";
+
        // String st= String.valueOf(c);
 
         String st= Character.toString(c);
