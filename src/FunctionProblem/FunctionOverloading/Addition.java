@@ -4,29 +4,31 @@ import java.util.Scanner;
 
 class Operations{
     public double sum , a ,b;
-    double add(double a, double b){
+    void add(int a, int b){
+        sum =a+b;
+        System.out.println("sum of numbers = " +sum);
+    }
+
+    void add(double a, int b){
      sum =a+b;
-     return sum;
+        System.out.println("sum of numbers = " +sum);
     }
 
-    double add(double a ,double b, double c){
+    void add(int a ,double b){
       sum = a+b;
-      return sum;
+        System.out.println("sum of numbers = " +sum);
     }
 
-    double add(double a ,double b,double c, double d){
+    void add(double a ,double b){
         sum = a+b;
-        return sum;
+        System.out.println("sum of numbers = " +sum);
     }
 }
 public class Addition {
     public static void main(String[] args) {
 
-        double sum=0;
-
         Operations obj = new Operations();
-        obj.add(4,4);
+        obj.add(4.4,4);
 
-        System.out.println("sum of numbers = " +sum);
     }
 }
