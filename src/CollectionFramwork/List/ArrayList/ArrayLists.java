@@ -1,4 +1,4 @@
-package CollectionFramwork.List;
+package CollectionFramwork.List.ArrayList;
 
 import java.util.ArrayList;
 
@@ -18,10 +18,10 @@ public class ArrayLists {
         System.out.println(list);
 
         // get element...
-      list.get(1);
+        list.get(1);
 
-      //for printing...
-    int element = list.get(0);
+        //for printing...
+        int element = list.get(0);
         System.out.println(element);
 
         //set element...
