@@ -1,4 +1,4 @@
-package CollectionFramwork.List.ArrayList;
+package CollectionFramework.List;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class ArrayLists {
         System.out.println(list);
 
         //add in between...
-        list.add(0,0);
+        list.add(0, 0);
         System.out.println(list);
 
         // get element...
@@ -25,7 +25,7 @@ public class ArrayLists {
         System.out.println(element);
 
         //set element...
-        list.set(0,4);
+        list.set(0, 4);
         System.out.println(list);
 
         //remove element...
@@ -40,10 +40,11 @@ public class ArrayLists {
         list2.add(5);
         list2.add(6);
         list2.add(7);
-        System.out.println("list 2 = "+list2);
+        System.out.println("list 2 = " + list2);
 
         //to add all element of list2 in list
         list.addAll(list2);
         System.out.println(list);
+
     }
 }
