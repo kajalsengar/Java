@@ -19,5 +19,10 @@ public class LinkedHashSets {
         System.out.println(hashSet.getLast());
         hashSet.remove("kajal");
         System.out.println(hashSet);
+
+        System.out.println(hashSet.clone());
+        System.out.println(hashSet.size());
+
+
     }
 }
