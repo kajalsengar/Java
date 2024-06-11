@@ -13,7 +13,7 @@ public class HashSets {
         Set <Integer> set1= new HashSet<>();
         set1.add(0);
         set1.add(3);
-        //set1.add(2);
+        set1.add(2);
         set1.add(5);
         System.out.println(set1);
 
@@ -21,8 +21,11 @@ public class HashSets {
 
         System.out.println(set.hashCode());
 
-        System.out.println(set.addAll(set1));
-        System.out.println(set.retainAll(set1));
-        System.out.println(set.containsAll(set1));
+        set.addAll(set1);
+        System.out.println(set);
+        set.retainAll(set1);
+        System.out.println(set);
+        set.containsAll(set1);
+        System.out.println(set);
     }
 }
