@@ -1,4 +1,4 @@
-package basics;
+package basics.Basic;
 
 public class DefaultValues {
     static byte value1;
