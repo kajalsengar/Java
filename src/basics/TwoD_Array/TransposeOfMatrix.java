@@ -11,6 +11,7 @@ public class TransposeOfMatrix {
         int column = scan.nextInt();
         int array [][] = new int[row][column];
        // int i,j;
+
         System.out.println("enter element of array..");
         for (int i=0; i<row; i++){
             for (int j=0; j<column; j++){
