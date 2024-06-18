@@ -7,7 +7,7 @@ public class Enum {
 
     public static void main(String[] args) {
         Direction side= Direction.NORTH;
-        if (side==Direction.SOUTH) {
+        if (side==Direction.NORTH) {
             System.out.println("its north side direction");
         }else {
             System.out.println("north directon");
