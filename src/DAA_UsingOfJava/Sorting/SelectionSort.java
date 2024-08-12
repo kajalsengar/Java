@@ -30,7 +30,7 @@ public class SelectionSort {
         }
 
         System.out.println(" ");
-        System.out.println("Array after sorting ...");
+        System.out.println("Array after sorting...");
         for (i=0; i<= array.length-1; i++){
             System.out.print(array[i]+ " ");
         }
