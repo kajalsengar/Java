@@ -6,13 +6,14 @@ public class BubbleSort {
     public static void main(String[] args) {
         int i;
         int j;
-        int temp;
+        int temp=0;
         int swap;
         Scanner input = new Scanner(System.in);
         System.out.println("enter the size of array");
         int n = input.nextInt();
         int[] array = new int[n];
 
+        System.out.println("enter values of array...");
         for (i = 0; i < n; i++) {
             array[i] = input.nextInt();
         }
@@ -22,13 +23,13 @@ public class BubbleSort {
             System.out.print(array[i] + " ");
         }
 
-        for (i=array.length-1; i>0; i--){
+        for (i=array.length; i>0; i--){
             swap=0;
-            for (j=0; j<i; j++){
+            for (j=0; j<i-1; j++){
                 if (array[j] > array[j+1]) {
                     temp=array[j];
-                    array[j+1]=array[j];
-                    array[j]=temp;
+                    array[j]=array[j+1];
+                    array[j+1]=temp;
                     swap=1;
                 }
             }
