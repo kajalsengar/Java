@@ -1,4 +1,4 @@
-package DAA_UsingOfJava.Sorting;
+package DAA_UsingOfJava.Sorting.Basic_Algo;
 
 public class InsertionSort {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DAA_UsingOfJava.Sorting;
+package DAA_UsingOfJava.Sorting.Basic_Algo;
 
 import java.util.Scanner;
 

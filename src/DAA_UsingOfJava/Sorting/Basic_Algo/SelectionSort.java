@@ -1,4 +1,4 @@
-package DAA_UsingOfJava.Sorting;
+package DAA_UsingOfJava.Sorting.Basic_Algo;
 
 public class SelectionSort {
     public static void main(String[] args) {
