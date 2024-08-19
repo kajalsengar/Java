@@ -1,7 +1,7 @@
 package Enum;
 
 public class FinalExample {
-    //     //only for final class cheking
+    //   //only for final class cheking
 // }
 // class person1 extends person {
 //     //final class conn't take subclasses
