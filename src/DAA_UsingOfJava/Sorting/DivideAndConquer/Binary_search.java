@@ -9,6 +9,7 @@ public class Binary_search {
         int first=array.length-1;
         int last= 0;
         int f=0;
+
         System.out.println(array.length);
         System.out.println("Enter value of finding....");
         Scanner sc= new Scanner(System.in);
