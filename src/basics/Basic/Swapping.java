@@ -11,7 +11,7 @@ public class Swapping {
         int b =  sc.nextInt();
         System.out.println("a="+ a +"  b=" +b);
 
-        // swapping without using 3rd variable
+        // swapping without using 3rd variable..
         b=a+b;
         a=b-a;
         b=b-a;
