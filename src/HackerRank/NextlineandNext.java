@@ -13,6 +13,7 @@ public class NextlineandNext {
             String s = scan.nextLine();
             scan.close();
 
+
             System.out.println("String: " + s);
             System.out.println("Double: " + d);
             System.out.println("Int: " + i);
