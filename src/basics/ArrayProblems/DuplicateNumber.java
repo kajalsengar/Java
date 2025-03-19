@@ -24,8 +24,5 @@ public class DuplicateNumber {
             }
         }
         System.out.println("Total duplicate numbers in array "+count);
-        System.out.println("End of program");
-        System.out.println("Hy im code ");
-        System.out.println("hy");
     }
 }
