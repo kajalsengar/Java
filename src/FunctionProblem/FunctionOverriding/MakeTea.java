@@ -25,9 +25,9 @@ class YellowTea extends Tea{
 }
 public class MakeTea {
     public static void main(String[] args) {
-        //Tea obj = new Tea();
-      //  obj.tea();
-        YellowTea obj1 = new YellowTea();
+//        Tea obj = new Tea();
+//        obj.tea();
+        GreenTea obj1 = new GreenTea();
         obj1.tea();
     }
 }

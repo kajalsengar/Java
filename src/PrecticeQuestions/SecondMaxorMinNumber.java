@@ -31,7 +31,7 @@ public class SecondMaxorMinNumber {
         for (int i =0; i<n; i++){
             if(array[i]!=max && smax<array[i]){
                 smax=array[i];
-            } else if (array[i]<smin && smin>array[i]) {
+            } else if (array[i]<min && smin>array[i]) {
                 smin=array[i];
             }
         }
