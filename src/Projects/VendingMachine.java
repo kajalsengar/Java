@@ -15,9 +15,9 @@ class User extends Thread {
     public void itemSelection() {
         System.out.println("        "+"--------------------------");
         System.out.println("        "+"|           Menu         |");
-        System.out.println("        "+"| Water 🥛       Rs. 15  |");
+        System.out.println("        "+"| Water 🥛       Rs. 10  |");
         System.out.println("        "+"| Cold drink 🍷   Rs. 20  |");
-        System.out.println("        "+"| Tea 🍵         Rs. 10  |");
+        System.out.println("        "+"| Tea 🍵         Rs. 15  |");
         System.out.println("        "+"--------------------------");
         try {
             Thread.sleep(2000);
@@ -33,13 +33,13 @@ class User extends Thread {
     }
     public void calculatingMoney() {
         if (item == 1) {
-            money = 15 * count;
+            money = 10 * count;
             System.out.println("your amount is :) " + money);
         } else if (item==2) {
             money=20*count;
             System.out.println("your amount is :) " + money);
         } else if (item==3) {
-            money=10*count;
+            money=15*count;
             System.out.println("your amount is :) " + money);
         }
         else {
@@ -74,13 +74,7 @@ class paymentGateway extends User{
                     recieve = scanner.nextInt();
                     if (money == recieve) {
                         System.out.println("Here, is your Drink. Take it & Enjoy. Thank you...");
-
-                    } else if (money < recieve) {
-                        returnMoney = recieve - money;
-                        System.out.println("Here is your change" + returnMoney);
-                        System.out.println("Here, is your Drink. Take it & Enjoy. Thank you...");
                     }
-
                 }
                 stock -= count;
                 moneyCollected += money;
