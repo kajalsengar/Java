@@ -62,7 +62,9 @@ class paymentGateway extends User{
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-
+                if (count > stock) {
+                    System.out.println("Sorry, not enough stock available.");
+                }else{
                 if (money == recieve) {
                     System.out.println("Here, is your Drink. Take it & Enjoy. Thank you...");
                 } else if (money < recieve) {
@@ -78,6 +80,7 @@ class paymentGateway extends User{
                 }
                 stock -= count;
                 moneyCollected += money;
+                }
                 break;
             case "online":
                 Scanner input = new Scanner(System.in);
@@ -93,14 +96,17 @@ class paymentGateway extends User{
                 System.out.println("Please Enter Above code ");
                 int code1 = input.nextInt();
 
-                if(code1==code){
-                    System.out.println("Payment Successfully Done!");
-                    System.out.println("Here, is your Drink. Take it & Enjoy. Thank you...");
-                    stock -=count;
-                    moneyCollected += money;
-                }
-                else{
-                    System.out.println("Invallid code");
+                if (count > stock) {
+                    System.out.println("Sorry, not enough stock available.");
+                }else {
+                    if (code1 == code) {
+                        System.out.println("Payment Successfully Done!");
+                        System.out.println("Here, is your Drink. Take it & Enjoy. Thank you...");
+                        stock -= count;
+                        moneyCollected += money;
+                    } else {
+                        System.out.println("Invallid code");
+                    }
                 }
                 break;
             default:
